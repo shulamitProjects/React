@@ -1,0 +1,104 @@
+/* עיצוב צבעוני לכפתורים */
+button,
+.Button {
+  background-color: #e82c54; /* גוון ירוק */
+  color: rgb(252, 246, 246);
+  padding: 15px 25px;
+  border:black;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* סדר התמונות בשורה */
+.border {
+  display:inline-block;  
+  flex-wrap:wrap-reverse; /* כדי לסדר רק כמה שיוכלו להיכנס בשורה ואז להמשיך לשורה הבאה */
+  justify-content: flex-start; /* כדי לסדר את התמונות בתחילת הקונטיינר, ניתן לשנות זאת ל-space-between על מנת להשאיר רווח בין התמונות */
+  align-items: flex-start; /* כדי ליישר את התמונות בצד וליד */
+  border: 1px solid red;
+
+}
+
+/* עיצוב צבעוני לכפתור בלחיצה */
+.Button:active,
+.Button:active {
+  background-color: #0ae815; /* גוון ירוק כהה בלחיצה */
+}/* Style for the dialog */
+#dialog {
+  width: 300px;
+  padding: 20px;
+  background-color: #e02a98;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(157, 16, 49, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:inline-block;
+}/* עיצוב תמונות */
+img {
+  height: 150px;
+  width: 50px;
+  font-family: initial; /* לא ברור למה אתה משנה את הגופן פה */
+}
+
+
+
+/* Style for the dialog title */
+#dialog h1 {
+  margin: 0 0 10px;
+}
+
+/* Style for the dialog inputs */
+#dialog input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  align-items: flex-start; /* כדי ליישר את התמונות בצד וליד */
+}
+
+/* Style for the dialog buttons */
+#dialog button {
+   background-color: #e82c54; /* גוון ירוק */
+  color: rgb(252, 246, 246);
+  padding: 15px 25px;
+  border:rgb(0, 0, 0);
+  cursor: pointer;
+  margin: 50px;
+  border-radius: 10px;
+  
+}
+
+/* Style for the products container */
+.border {
+  border: 1px solid #d90f4c;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.input{display: block;}
+
+/* Style for the product image */
+.border img {
+  height: 150px;
+  width: 200px;
+  font-family: initial;
+}
+
+/* Style for the product details */
+.border div {
+  margin-top: 10px;
+}
+
+/* Style for the "create a new product" button */
+button {
+  background-color: #e82c54; /* גוון ירוק */
+  color: rgb(252, 246, 246);
+  padding: 15px 25px;
+  border:black;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 10px;}

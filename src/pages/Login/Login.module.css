@@ -1,0 +1,16 @@
+.loginWrapper{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/* עיצוב צבעוני לכפתורים */
+button,
+.Button {
+  background-color: #e82c54; /* גוון ירוק */
+  color: rgb(252, 246, 246);
+  padding: 15px 25px;
+  border:black;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 10px;
+}
